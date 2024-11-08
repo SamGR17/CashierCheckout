@@ -1,0 +1,119 @@
+.checkoutBox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: white;
+    width: 700px;
+    box-shadow: -1px 1px 5px 5px rgb(222, 222, 222);
+}
+
+.nameOfListedItem {
+    display: inline-flex;
+    margin-right: 125px;
+}
+
+.priceOfListedItem {
+    display: inline-flex;
+    margin-right: 110px;
+}
+
+.itemQuantityNumber {
+    display: inline-flex;
+    margin-left: 100px;
+    margin-right: 25px;
+}
+
+.listedItemBorder {
+    border: 0.5px solid black;
+    border-radius: 3px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.price {
+    display: inline-flex;
+}
+
+h1 {
+    font-family:'Gill Sans';
+}
+
+h2 {
+    margin-right: 30px;
+    font-family: 'Gill Sans';
+}
+
+h3 {
+    display: inline-flex;
+    text-decoration: underline;
+    margin: 75px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans';
+}
+
+button {
+    color: white;
+    background-color:rgb(58, 175, 3);
+    border: 1px solid rgb(58, 175, 3);
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    font-size: small;
+}
+
+button:hover {
+    color: white;
+    background-color:rgb(37, 118, 0);
+    border: 1px solid rgb(37, 118, 0);
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    font-size: small;
+}
+
+body { 
+    background-color: whitesmoke;
+}
+
+#quantityNum {
+    border: 0.5px solid black;
+    height: 15px;
+    margin-bottom: 20px;
+    margin-right: 437px;
+}
+
+#addToCartBtn {
+    margin-right: 550px;
+}
+
+#totalWord {
+    margin-right: 605px;
+}
+
+#totalPrice {
+    margin-right: 605px;
+    margin-bottom: 2px;
+}
+
+#barcodeNums {
+    border: 0.5px solid black;
+    height: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 350px;
+}
+
+#checkoutButton {
+    margin-bottom: 10px;
+    margin-right: 550px;
+}
+
+#grandTotalPrice {
+    margin-right: 328px;
+}
